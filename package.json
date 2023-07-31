@@ -1,5 +1,5 @@
 {
-  "name": "monster-rholodex",
+  "name": "monster-rolodex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/jahrulezfrancis/monster-rolodex.git",
+  "author": "jahrulezfrancis <longsaarmuknaan@gmail.com>",
+  "license": "MIT"
 }
