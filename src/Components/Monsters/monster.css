@@ -1,0 +1,13 @@
+.monster-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    gap: 1px;
+    height: 450px;
+    border-radius: 8px;
+    background: #1ECBE1;
+    padding: 10px;
+}
+
