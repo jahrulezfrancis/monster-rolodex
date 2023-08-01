@@ -20,7 +20,9 @@ function App() {
   return (
     <div className="App">
       <input onChange={handleChange} style={{ height: '35px' }} type='search' placeholder='Search Monsters' />
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", }}>
+
+      <MonsterCardComp searchTerm={searchTerm} monsters={monsters} />
+      {/* <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", }}>
         {
           monsters.map((monst) => {
             return (
@@ -36,15 +38,10 @@ function App() {
             )
           })
         }
-      </div>
+      </div> */}
 
     </div >
   );
 }
 
 export default App;
-
-const styles = {
-  display: "flex",
-  flexDirection: "row"
-}
