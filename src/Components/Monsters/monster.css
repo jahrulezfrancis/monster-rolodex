@@ -23,9 +23,28 @@
 }
 
 .card-list-container {
-    width: 85vw;
+    width: 95vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+}
+@media (max-width: 1300px)and (min-width: 800px){
+    .card-list-container {
+        width: 95vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 700px){
+    .card-list-container {
+        width: 90vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 }
