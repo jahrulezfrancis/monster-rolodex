@@ -18,6 +18,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>Monsters Rholodex</h1>
       <input className='search-box' onChange={handleChange} style={{ height: '35px' }} type='search' placeholder='Search Monsters' />
       <MonsterCardComp searchTerm={searchTerm} monsters={monsters} />
     </div >
