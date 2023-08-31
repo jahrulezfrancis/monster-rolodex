@@ -1,24 +1,12 @@
-.App {
-  text-align: center;
-  padding: 30px;
+.app-title {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 76px;
+  color: #0ccac4;
+  font-family: 'Bigelow Rules';
 }
-
-.App > h1{
-  text-align: center;
-  padding: .3125rem;
-  font-size: 2.8125rem;
-  line-height: 1.375rem;
-  color: rgb(74, 40, 3);
-}
-
-.search-box {
-  appearance: none;
-  -webkit-appearance: none;
-  border: none;
-  outline: none;
-  padding: 10px;
-  width: 150px;
-  line-height: 30px;
-  margin-bottom: 30px;
-  border-radius: 5px;
+@media (max-width: 700px) {
+  .app-title {
+    font-size: 50px;
+  }
 }
